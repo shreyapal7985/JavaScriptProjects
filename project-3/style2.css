@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #212121;
+    color: #fff;
+}
+nav{
+    border: 2px solid black;
+    height: 30px;
+    padding: 20px;
+    background-color: grey;
+    text-align: center;
+}
+nav a{
+    
+background-color: #fff;
+padding: 10px 30px;
+ border: 2px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
+.center{
+    border: 5px solid white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#clock{
+    font-size: 40px;
+    background-color: orange;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
