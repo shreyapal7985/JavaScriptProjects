@@ -1,2 +1,2 @@
 # JavaScriptProjects
-# this is my first commitgit
+# this is my first commit git
