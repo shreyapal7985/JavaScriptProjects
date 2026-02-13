@@ -27,7 +27,8 @@ function validateGuess(guess){
         alert("please enter a valid")
     }
     else{
-        prevGuess.push(guess)
+         const a=prevGuess.push(guess)
+         console.log(a)
         if(numGuess===10){
             displayGuess(guess)
             displayMessage(`game over.random number was ${randomNumber}`)
@@ -59,7 +60,7 @@ function displayGuess(guess){
     guessSlot.innerHTML += `${guess}  `//it shows previous guesses
     
     remaining.innerHTML= `${10-numGuess}`//it shows guesses remaining 
-    numGuess++;
+    console.log(numGuess++);
 }
 function displayMessage(message){
     lowOrHi.innerHTML = `<h2>${message}</h2>`
